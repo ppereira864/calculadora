@@ -1,0 +1,87 @@
+<!DOCTYPE html5>
+
+<html>
+  <head>
+    <title>home</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- propio -->
+    <link rel="stylesheet" href="propio.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>PEDRO ALBERTO PEREIRA GUZMAN</h2>
+      <button 
+        type="button"
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#myModal"
+      >ABRIENDO CALCULADORA</button>
+
+      <!-- The Modal -->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div id="cabecera"></div>
+
+                  <!-- Calculadora -->
+                    <table class="calculadora">
+                        <tr>
+                          <td colspan="5"><span class="pantalla"></span></td>
+                        </tr>
+                        <tr>
+                          <td><button class="Btn_del">Del</button></td>
+                          <td><button class="Btn_ce">CE</button></td>
+                          <td><button class="Btn_c">C</button></td>
+                          <td><button class="Btn_raiz">Raiz</button></td>
+                          <td><button class="Btn_sen">Sen</button></td>
+                        </tr>
+                        <tr>
+                          <td><button class="Btn_7">7</button></td>
+                          <td><button class="Btn_8">8</button></td>
+                          <td><button class="Btn_9">9</button></td>
+                          <td><button class="Btn_div">/</button></td>
+                          <td><button class="Btn_cos">Cos</button></td>
+                        </tr>
+                        <tr>
+                          <td><button class="Btn_4">4</button></td>
+                          <td><button class="Btn_5">5</button></td>
+                          <td><button class="Btn_6">6</button></td>
+                          <td><button class="Btn_mult">*</button></td>
+                          <td><button class="Btn_porc">%</button></td>
+                        </tr>
+                        <tr>
+                          <td><button class="Btn_1">1</button></td>
+                          <td><button class="Btn_2">2</button></td>
+                          <td><button class="Btn_3">3</button></td>
+                          <td><button class="Btn_res">-</button></td>
+                          <td><button class="Btn_frac">1/x</button></td>
+                        </tr>
+                        <tr>
+                          <td><button class="Btn_neg_pos">+/-</button></td>
+                          <td><button class="Btn_0">0</button></td>
+                          <td><button class="Btn_coma">,</button></td>
+                          <td><button class="Btn_sum">+</button></td>
+                          <td><button class="Btn_igual">=</button></td>
+                        </tr>
+                    </table>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+    <script type="text/javascript" src="propio.js"></script>
+  </body>
+</html>

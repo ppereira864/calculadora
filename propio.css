@@ -1,0 +1,98 @@
+* {
+	font-family: 'Times New Roman', cursive;
+	font-size:22px;
+}
+
+tr{
+    margin: 0 auto;
+	padding: 0;
+}
+
+.calculadora{
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: solid 1px #c2c2c2;
+    padding-bottom: 10px;
+    margin: auto;
+    background: #fafafa;
+}
+
+.pantalla{
+    width: 120%; 
+    text-align: right; 
+    position: relative; 
+    left: 23px;  
+    padding: 0px 5px;
+    background-color: rgb(255, 255, 255); 
+    font-family: "courier new";
+}
+
+
+td button{
+    width:55px;
+	height:30px;
+	border-radius:3px;
+	color:#000000;
+	background-color:#e3e3eb;
+	margin: 0px -3px 5px 8px;
+	text-align: center;
+	box-shadow: 0px 3px 1px 0px #444651;
+    transition: all .4s;
+}
+td button:hover{
+	background-color: #616362;
+	color: #ffffff;
+    border-radius: 8px;
+}
+
+
+/* hover para Btn sum res div mult */
+.Btn_div:hover{
+    background-color: #37c73e;
+	color: #ffffff;
+    border-radius: 8px;
+}
+.Btn_sum:hover{
+    background-color: #37c73e;
+	color: #ffffff;
+    border-radius: 8px;
+}
+.Btn_res:hover{
+    background-color: #37c73e;
+	color: #ffffff;
+    border-radius: 8px;
+}
+.Btn_mult:hover{
+    background-color: #37c73e;
+	color: #ffffff;
+    border-radius: 8px;
+}
+
+
+/* hover para btn raiz sen cos % 1/x */
+.Btn_raiz:hover{
+    background-color: #427683;
+	color: #ffffff;
+    border-radius: 8px;
+}
+.Btn_sen:hover{
+    background-color: #427683;
+	color: #ffffff;
+    border-radius: 8px;
+}
+.Btn_cos:hover{
+    background-color: #427683;
+	color: #ffffff;
+    border-radius: 8px;
+}
+.Btn_porc:hover{
+    background-color: #427683;
+	color: #ffffff;
+    border-radius: 8px;
+}
+.Btn_frac:hover{
+    background-color: #427683;
+	color: #ffffff;
+    border-radius: 8px;
+}
